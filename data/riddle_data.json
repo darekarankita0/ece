@@ -1,0 +1,52 @@
+[
+     {
+        "riddle"       : "1. What is the use of the Ultrasonic Sensor?\na) Proximity Detection\nb) Humidity Detection\nc) Image Processing\nd) GPS\n",
+        "answer"       : "a",
+        "url"          : "1"
+    },
+      {
+        "riddle"       : "2. How many pins are present in the Ultrasonic Sensor?\na) 1\nb) 3\nc) 2\nd) 4\n",
+        "answer"       : "d",
+        "url"          : "2"
+    },
+      {
+        "riddle"       : "3. What mode should we put the Arduino pin to, in order for object detection to work with the Ultrasonic Sensor?\na) Analog\nb) Digital\nc) PCM\nd) TDM\n",
+        "answer"       : "b",
+        "url"          : "3"
+    },
+     {
+        "riddle"       : "4. What will happen if we supply a voltage of 25V to the Vcc of the Ultrasonic sensor?\na) Damage is caused\nb) Sensor will work fine\nc) Sensor will not respond for the time the voltage is applied\nd) Sensor will function normally\n",
+        "answer"       : "a",
+        "url"          : "4"
+    },
+      {
+        "riddle"       : "5. If 1 means an object is detected and 0 meaning no object is detected, then considering the sensor is stationary, what can be said about the movement of the object if the output by the sensor is 1010101?\na) Object is stationary\nb) Object is oscillating side by side\nc) Object is continuously moving away\nd) Object is continuously moving closer\n",
+        "answer"       : "b",
+        "url"          : "5"
+    },
+      {
+        "riddle"       : "6. What kind of waves does the Ultrasonic Sensor work on?\na) Gas\nb) Heat\nc) Light\nd) Sound\n",
+        "answer"       : "d",
+        "url"          : "6"
+    },
+     {
+        "riddle"       : "7. What are the factors that affect the performance of the Ultrasonic Sensor during operation?\na) Distant Target Object\nb) Target Object hidden by fog\nc) Smoke\nd) Dust\n",
+        "answer"       : "a",
+        "url"          : "7"
+    },
+     {
+        "riddle"       : "8. What is the optimum current that is required to operate the Ultrasonic Sensor?\na) 20 mA\nb) 15 mA\nc) 200 A\nd) 1 A\n",
+        "answer"       : "b",
+        "url"          : "8"
+    },
+    {
+        "riddle"       : "9. What is the maximum distance that the Ultrasonic Sensor can detect an object?\na) 8 cm\nb) 200 cm\nc) 9 cm\nd) 20.21 cm\n",
+        "answer"       : "b",
+        "url"          : "9"
+    },
+    {
+         "riddle"       : "10. What is the final value of the d2 variable\nconst int trigPin = 9;\nconst int echoPin = 10;\nlong d1;\nint d2;\nvoid setup() {\npinMode(trigPin, OUTPUT);\npinMode(echoPin, INPUT);\nSerial.begin(9600); \n}\nvoid loop() {\ndigitalWrite(trigPin, LOW);\ndelayMicroseconds(2);\ndigitalWrite(trigPin, HIGH);\ndelayMicroseconds(10);\ndigitalWrite(trigPin, LOW);\nd1 = pulseIn(echoPin, HIGH);\nd2 = d1*0.034/2;\nSerial.println(d2);\n}?\na) Distance\nb) Duration\nc) Time Period\nd) Position\n",
+         "answer"       : "a",
+         "url"          : "10"
+    }
+]
